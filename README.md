@@ -1,9 +1,6 @@
 # Multi-Scale Non-Local Attention Network
-This repository is for MSNLN introduced in the following paper
-
-Sowon Kim, Hanhoon Park*, "Super-Resolution Using Multi-Scale Non-Local Attention", 2022 
-
-
+This repository is for MSNLN introduced in the following paper ...  
+Sowon Kim, Hanhoon Park*, "Super-Resolution Using Multi-Scale Non-Local Attention", 2022  
 The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and [CSNLN](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention), tested on window 10 environment (Python3.6.5, PyTorch_1.7.1) with GeForce RTX 2080 Ti GPU. 
 
 ## Contents
@@ -33,7 +30,7 @@ The recurrent architecture with Self-Exemplars Mining (SEM) Cell.
 
 2. Specify '--dir_data' based on the HR and LR images path. 
 
-Our code is based on EDSR. For more information, please refer to [EDSR(PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch).
+Code is based on EDSR and CSNLN. For more information, please refer to [EDSR(PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) or [CSNLN](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention).
 
 ### Run
 
@@ -48,7 +45,7 @@ Our code is based on EDSR. For more information, please refer to [EDSR(PyTorch)]
 Pre-traind models can be downloaded from ...
 
     ```bash
-    # No self-ensemble: CSNLN
+    # No self-ensemble: MSNLN
     # Example X2 SR
     python3 main.py --model MSNLN_631_3 --data_test Set5+Set14+B100+Urban100 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
     ```
@@ -72,5 +69,5 @@ If you find the code helpful in your resarch or work, please cite the following 
 
 ```
 ## Acknowledgements
-This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch). We thank the authors for sharing their codes.
+This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and [CSNLN](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention). We thank the authors for sharing their codes.
 
