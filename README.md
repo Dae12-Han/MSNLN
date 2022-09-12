@@ -55,7 +55,7 @@ Pre-traind models can be downloaded from ...
 
 For more results, please refer to our [paper](https://arxiv.org/abs/2006.01424) and [Supplementary Materials](http://yiqunm2.web.illinois.edu/assets/papers/04292-supp.pdf).
 ### Visual Results
-![Visual_PSNR_SSIM](/Figs/Visual_1.png)
+![Visual_PSNR_SSIM](/Figs/Fig1.png)
 
 ![Visual_PSNR_SSIM](/Figs/Visual_2.png)
 
