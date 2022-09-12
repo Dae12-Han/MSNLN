@@ -1,10 +1,11 @@
 # Multi-Scale Non-Local Attention Network
 This repository is for MSNLN introduced in the following paper
 
-[Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://scholar.google.com/citations?user=BlfdYL0AAAAJ&hl=en), [Yuqian Zhou](https://yzhouas.github.io/), [Lichao Huang](https://scholar.google.com/citations?user=F2e_jZMAAAAJ&hl=en), [Thomas S. Huang](https://ifp-uiuc.github.io/), and [Humphrey Shi](https://www.humphreyshi.com/), "Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining", CVPR2020, [[arXiv]](https://arxiv.org/abs/2006.01424) 
+Sowon Kim, Hanhoon Park*, "Super-Resolution Using Multi-Scale Non-Local Attention", 2022 
 
 
-The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and tested on Ubuntu 18.04 environment (Python3.6, PyTorch_1.1.0) with Titan /Xp, V100 GPUs. 
+The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and [CSNLN](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention), tested on window 10 environment (Python3.6.5, PyTorch_1.7.1) with GeForce RTX 2080 Ti GPU. 
+
 ## Contents
 1. [Introduction](#introduction)
 2. [Train](#train)
