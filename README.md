@@ -13,8 +13,6 @@ The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorc
 
 ## Introduction
 
-....
-
 ![MS-NL Attention](/Figs/Fig.png)
 
 The proposed MSNLN architecture. SEM structure in CSNLN, it fuses features learned from a Cross-Scale Non-Local (CS-NL) attention, with others from In-Scale Non-Local (IS-NL) and the local paths. SEM structure in MSNLN, it fuses features learned from a proposed Multi-Scale Non-Local (MS-NL) attention and the local paths.
@@ -48,10 +46,10 @@ Pre-traind models can be downloaded from ...
 
 ## Results
 ### Quantitative Results
-![PSNR_SSIM](/Figs/Table.png)
+![Quantitative Results](/Figs/Table.png)
 
 ### Visual Results
-![Visual_PSNR_SSIM](/Figs/Fig1.png)
+![Visual_Results](/Figs/Fig1.png)
 
 
 ## Citation
