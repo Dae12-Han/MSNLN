@@ -15,13 +15,10 @@ The code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorc
 
 ....
 
-![CS-NL Attention](/Figs/Attention.png)
+![MS-NL Attention](/Figs/Fig.png)
 
-Cross-Scale Non-Local Attention.
+The proposed MSNLN architecture. SEM structure in CSNLN, it fuses features learned from a Cross-Scale Non-Local (CS-NL) attention, with others from In-Scale Non-Local (IS-NL) and the local paths. SEM structure in MSNLN, it fuses features learned from a proposed Multi-Scale Non-Local (MS-NL) attention and the local paths.
 
-![CSNLN](/Figs/CSNLN.png)
-
-The recurrent architecture with Self-Exemplars Mining (SEM) Cell.
 
 ## Train
 ### Prepare training data 
