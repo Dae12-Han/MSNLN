@@ -55,6 +55,20 @@ Here we provide demo test samples.
     # Sample test datasets: Set5, Set14, B100, Manga109, Detroit
     python3 main.py --model MSNLN_631_3 --data_test Set5+Set14+B100+Detroit+Manga109 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
     ```
+Making model...  
+Loading model from ./experiment/MSNLN_631_3_x2/model/model_best.pt  
+Total params: 3.68M  
+  
+Evaluation:  
+100%|█████████████████████████████████████████████| 5/5 [00:47<00:00, 10.11s/it]  
+[Set5 x2]       PSNR: 37.248 (Best: 37.248 @epoch 1)  
+Forward: 47.14s  
+100%|███████████████████████████████████████████| 10/10 [02:17<00:00, 13.71s/it]  
+[B100 x2]       PSNR: 35.923 (Best: 35.923 @epoch 1)  
+Forward: 137.43s  
+100%|███████████████████████████████████████████| 10/10 [15:42<00:00, 94.19s/it]  
+[Manga109 x2]   PSNR: 39.715 (Best: 39.715 @epoch 1)  
+Forward: 942.34s  
 
 ## Results
 ### Quantitative Results
