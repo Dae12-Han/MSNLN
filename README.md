@@ -68,7 +68,10 @@ Forward: 47.14s
 Forward: 137.43s  
 100%|███████████████████████████████████████████| 10/10 [15:42<00:00, 94.19s/it]  
 [Manga109 x2]   PSNR: 39.715 (Best: 39.715 @epoch 1)  
-Forward: 942.34s  
+Forward: 942.34s   
+100%|███████████████████████████████████████████| 10/10 [03:49<00:00, 22.85s/it]  
+[Detroit x2]    PSNR: 41.345 (Best: 41.345 @epoch 1)  
+Forward: 229.33s  
 
 ## Results
 ### Quantitative Results
