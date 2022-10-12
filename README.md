@@ -47,7 +47,7 @@ Pre-traind models can be downloaded from ...
     ```
 
 ### Demo
-Here we provide demo test samples. Since Set5 dataset is consisted of 5 images, we randomly extracted 10 images from B100, Detroit, Manga109. You can check that demo datasets PSNRa average is over 37dB. 
+Here we provide demo test samples. Since Set5 dataset is consisted of 5 images, we randomly extracted 10 images from B100, Detroit, Manga109. You can check that demo datasets PSNR average is over 37dB. 
 
     ```
     # No self-ensemble: MSNLN
