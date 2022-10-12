@@ -47,13 +47,12 @@ Pre-traind models can be downloaded from ...
     ```
 
 ### Demo
-Here we provide demo test samples.
+Here we provide demo test samples. Since Set5 dataset is consisted of 5 images, we randomly extracted 10 images from B100, Detroit, Manga109. You can check that demo datasets PSNRa average is over 37dB. 
 
     ```
     # No self-ensemble: MSNLN
     # Example X2 SR
     # Sample test datasets: Set5, B100, Manga109, Detroit
-    # Since Set5 dataset is consisted of 5 images, we randomly extracted 10 images from B100, Detroit, Manga109. You can check that demo datasets PSNRa average is over 37dB. 
     python3 main.py --model MSNLN_631_3 --data_test Set5+B100+Detroit+Manga109 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
     ```
 Making model...  
