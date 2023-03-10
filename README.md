@@ -86,7 +86,16 @@ Forward: 229.33s
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-
+@article{kim2023image,
+  title={Image super-resolution using multi-scale non-local attention},
+  author={Kim, Sowon and Park, Hanhoon},
+  journal={Journal of Electronic Imaging},
+  volume={32},
+  number={1},
+  pages={013043},
+  year={2023},
+  publisher={SPIE}
+}
 ```
 ## Acknowledgements
 This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch) and [CSNLN](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention). We thank the authors for sharing their codes.
