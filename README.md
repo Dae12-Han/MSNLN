@@ -33,30 +33,30 @@ Code is based on EDSR and CSNLN. For more information, please refer to [EDSR(PyT
 
 ### Run
 
-    ```
-    # Example X2 SR
-    python3 main.py --chop --batch_size 4 --model MSNLN_631_3 --scale 2 --patch_size 64 --save MSNLN_631_3_x2 --n_feats 128 --depth 12 --data_train DIV2K --save_models
-    ```
+```python
+# Example X2 SR
+python3 main.py --chop --batch_size 4 --model MSNLN_631_3 --scale 2 --patch_size 64 --save MSNLN_631_3_x2 --n_feats 128 --depth 12 --data_train DIV2K --save_models
+```
 
 ## Test
 ### Quick start
 Pre-traind models can be downloaded from ...
 
-    ```
-    # No self-ensemble: MSNLN
-    # Example X2 SR
-    python3 main.py --model MSNLN_631_3 --data_test Set5+Set14+B100+Urban100 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
-    ```
+```python
+# No self-ensemble: MSNLN
+# Example X2 SR
+python3 main.py --model MSNLN_631_3 --data_test Set5+Set14+B100+Urban100 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
+```
 
 ### Demo
 Here we provide demo test samples. Since Set5 dataset is consisted of 5 images, we randomly extracted 10 images from B100, Detroit, Manga109. You can check that demo datasets PSNR average is over 37dB. 
 
-    ```
-    # No self-ensemble: MSNLN
-    # Example X2 SR
-    # Sample test datasets: Set5, B100, Manga109, Detroit
-    python3 main.py --model MSNLN_631_3 --data_test Set5+B100+Detroit+Manga109 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
-    ```
+```python
+# No self-ensemble: MSNLN
+# Example X2 SR
+# Sample test datasets: Set5, B100, Manga109, Detroit
+python3 main.py --model MSNLN_631_3 --data_test Set5+B100+Detroit+Manga109 --data_range 801-900 --scale 2 --n_feats 128 --depth 12 --pre_train ./experiment/MSNLN_631_3_x2/model/model_best.pt --save_results --test_only --chop
+```
 Making model...  
 Loading model from ./experiment/MSNLN_631_3_x2/model/model_best.pt  
 Total params: 3.68M  
